@@ -101,7 +101,7 @@
     padding: 32px 550px 0px;
 }
 
-.hero .hero-button .btn-1{
+.btn-1{
     color: rgba(255, 255, 255, 1);
     background-color: rgba(70, 145, 101, 1);
     border-radius: 4px;
@@ -124,11 +124,12 @@
      gap: 10px;
 }
 
-.hero .hero-button .btn-1:hover {
-    background-color: #d6b2b2;
+.hero .hero-button .btn-1:hover{
+    background-color: #d5b2b2;
     color: #032411;
 }
-.hero .hero-button .btn-2:hover {
+
+.hero .hero-button .btn-2:hover{
     background-color: #469165;
 }
 
@@ -240,3 +241,98 @@
     gap: 6px;
     list-style-type: none;
 }
+
+
+/* Early-Access style */
+
+.Early-access{
+    text-align: center;
+    width: 73%;
+    margin: 0 auto;
+    background-color: rgba(247, 246, 242, 1);
+}
+
+.Early-access .content h1{
+    color: var(--Style, rgba(0, 25, 49, 1));
+    font-size: 40px;
+    font-weight: 700;
+    padding: 80px 40px 16px;
+}
+
+.Early-access .content #first-p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 40px 24px;
+}
+
+/* .Early-access .content .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.Early-access .content button{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(70, 145, 101, 1);
+    border-radius: 4px;
+    text-align: center;
+    margin: 0 auto;
+    
+   
+} */
+
+#button{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin: 0 543px 16px;
+}
+ #button button{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(70, 145, 101, 1);
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #button button:hover{
+      background-color: #d5b2b2;
+      color: #032411;
+ }
+
+ .Early-access .content #second-p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 40px 80px;
+ }
+
+ .footer-up{
+    /* border: 1px solid; */
+    background-color: var(--Style, rgba(0, 25, 49, 1));
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 120px 120px 0;
+    margin-top: 120px;
+ }
+ 
+ .footer-up h5{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 107px 16px 790;
+ }
+
+ .footer-up .logo{
+    padding:16px 12px 0 0;
+ }
+
+ .footer-down{
+     background-color: var(--Style, rgba(0, 25, 49, 1));
+    display: flex;
+    justify-content: space-around;
+   
+ }
