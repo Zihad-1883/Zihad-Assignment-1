@@ -125,3 +125,65 @@
 .hero .hero-button .btn-2:hover {
     background-color: #469165;
 }
+
+.problem{
+    width: 100%;
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+.problem .text{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.problem .text h1{
+    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+    font-size: 48px;
+    font-weight: 700;
+    margin: 60px 0px 16px;
+}
+
+.problem .text p{
+    color: var(--#627382, rgba(98, 115, 130, 1));
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 44px;
+}
+
+.problem .card-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.problem .card-container .cards{
+    /* border: 1px solid red; */
+    width: 25%;
+    max-width: 1370px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow:  0 0 8px 0 rgba(0, 0, 0, .0);
+}
+
+.problem .card-container .cards img{
+    background-color: rgba(249, 85, 85, 1);
+    border: rgba(249, 85, 85, 1);
+    padding: 14px;
+    margin: 70px 131px 16px;
+    border-radius: 200px;   
+}
+
+.problem .card-container .cards h3{
+    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.problem .card-container .cards p{
+    color: var(--#627382, rgba(98, 115, 130, 1));
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 24px 70px;
+    
+}
