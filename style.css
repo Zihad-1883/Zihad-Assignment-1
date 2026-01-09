@@ -29,6 +29,99 @@
     font-weight: 500;
 }
 
+
 .nav-bar img{
     margin: 16px 0px 16px 120px;
+}
+
+.hero{
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 2000px;
+    padding: 200px 0;
+    background-image: url('./B13-A01-Knowledge-Vault/assets/hero-bg.png');
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+ .hero-content{
+    /* border: 3px solid blue; */
+    margin: 0 auto;
+    padding: 0 20px;
+   
+ }
+
+.hero .pre-heading{
+    color: #30B868;
+    width: 229px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 1000px;
+    background: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+}
+
+.hero-content h1{
+    font-size: 56px;
+    color: rgba(255, 255, 255, 1);
+    margin: 16px 295px;
+}
+
+.hero-content span{
+    color: rgba(48, 184, 104, 1);
+}
+
+.hero-content p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hero .hero-button{
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 16px;
+    padding: 32px 550px 0px;
+}
+
+.hero .hero-button .btn-1{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(70, 145, 101, 1);
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero .hero-button .btn-2{
+     color: rgba(255, 255, 255, 1);
+     border: 1px solid rgba(255, 255, 255, 1);
+     border-radius: 4px;
+     background: none;
+     padding: 12px 16px 12px 16px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+
+.hero .hero-button .btn-1:hover {
+    background-color: #d6b2b2;
+    color: #032411;
+}
+.hero .hero-button .btn-2:hover {
+    background-color: #469165;
 }
