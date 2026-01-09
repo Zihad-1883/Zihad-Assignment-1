@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(70, 145, 101, 1);
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin: 36px 120px 36px 0;
+}
+
+.nav-bar{
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 2000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.nav-bar li{
+    display:inline;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-bar img{
+    margin: 16px 0px 16px 120px;
+}
