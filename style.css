@@ -12,6 +12,9 @@
     margin: 36px 120px 36px 0;
 }
 
+/* nav-bar style */
+
+
 .nav-bar{
     /* border: 1px solid red; */
     width: 100%;
@@ -33,6 +36,9 @@
 .nav-bar img{
     margin: 16px 0px 16px 120px;
 }
+
+/* hero style */
+
 
 .hero{
     /* border: 1px solid red; */
@@ -126,6 +132,10 @@
     background-color: #469165;
 }
 
+
+/* problem section style */
+
+
 .problem{
     width: 100%;
     max-width: 1370px;
@@ -162,7 +172,7 @@
     max-width: 1370px;
     text-align: center;
     border-radius: 8px;
-    box-shadow:  0 0 8px 0 rgba(0, 0, 0, .0);
+    box-shadow:  0 0 8px 0 rgba(0, 0, 0, .08);
 }
 
 .problem .card-container .cards img{
@@ -184,6 +194,49 @@
     color: var(--#627382, rgba(98, 115, 130, 1));
     font-size: 16px;
     font-weight: 400;
-    margin: 0 24px 70px;
+    margin: 0 24px ;
     
+}
+
+/* solution section style */
+
+.solution{
+    /* border: 1px solid; */
+    width: 1500px;
+    max-width: 2000px;
+    margin: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution .solution-content{
+    margin: 102px 0 102px 60px;
+}
+
+.solution .solution-content h5{
+    color: rgba(70, 145, 101, 1);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.solution .solution-content h1{
+    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.solution .solution-content p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.solution .solution-content li{
+    display: flex;
+    gap: 6px;
+    list-style-type: none;
 }
