@@ -32,6 +32,10 @@
     font-weight: 500;
 }
 
+.nav-bar a{
+    text-decoration: none;
+    color: inherit;
+}
 
 .nav-bar img{
     margin: 16px 0px 16px 120px;
@@ -138,8 +142,8 @@
 
 
 .problem{
-    width: 100%;
-    max-width: 1370px;
+    width: 1360px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -203,8 +207,8 @@
 
 .solution{
     /* border: 1px solid; */
-    width: 1500px;
-    max-width: 2000px;
+    width: 1420px;
+    max-width: 1600px;
     margin: 120px;
     display: flex;
     justify-content: center;
@@ -247,7 +251,7 @@
 
 .Early-access{
     text-align: center;
-    width: 73%;
+    width: 1360px;
     margin: 0 auto;
     background-color: rgba(247, 246, 242, 1);
 }
@@ -310,16 +314,30 @@
     padding: 0 40px 80px;
  }
 
- .footer-up{
-    /* border: 1px solid; */
-    background-color: var(--Style, rgba(0, 25, 49, 1));
-    display: flex;
-    justify-content: space-around;
-    padding: 120px 120px 120px 0;
-    margin-top: 120px;
- }
+
+ /* footer style */
+
  
- .footer-up h5{
+footer{
+    /* border: 1px solid; */
+    width: 100%;
+    max-width: 2000px;
+    background-color: var(--Style, rgba(0, 25, 49, 1)); 
+    margin-top: 120px;
+    /* margin-bottom: 30px; */
+}
+ 
+ .footer-up{
+    /* border: 1px solid red; */
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 120px 120px 120px 0;
+    
+ }  
+  
+.footer-up h5{
     color: rgba(255, 255, 255, 1);
     font-size: 20px;
     font-weight: 500;
@@ -330,9 +348,21 @@
     padding:16px 12px 0 0;
  }
 
+ footer hr{
+    width: 72%;
+    border: 1px solid var(--DS New/Colors/Stroke/Gray-Light, rgba(229, 231, 235, 1));
+    opacity: 0.2;
+    margin: 0 auto;
+ }
+
  .footer-down{
      background-color: var(--Style, rgba(0, 25, 49, 1));
     display: flex;
     justify-content: space-around;
+    color: rgba(250, 250, 250, 1);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 120px 0;
+    padding-bottom: 30px;
    
- }
+ }  
